@@ -1,0 +1,57 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  background-color: cadetblue;
+  width: 50%;
+  margin: auto;
+  height: 200px;
+}
+input {
+  margin-top: 10px;
+  padding: 5px;
+  width: 200px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border: 0px solid;
+}
+button {
+  padding: 5px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border: 0px solid;
+}
+
+h4 {
+  border: 2px solid green;
+  border-radius: 10px;
+  background-color: green;
+  color: azure;
+  width: 20px;
+}
+.task-content {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  border-radius: 20px;
+  width: 300px;
+  margin: auto;
+}
+.text {
+  border: 1px solid dodgerblue;
+  border-radius: 5px;
+  width: 150px;
+  background-color: dodgerblue;
+  color: white;
+}
+.edit {
+  border: 1px solid orangered;
+  background-color: orangered;
+  color: white;
+  width: 40px;
+}
+.delete {
+  border: 1px solid rgb(255, 30, 116);
+  background-color: rgb(255, 30, 116);
+  color: white;
+  width: 20px;
+}
